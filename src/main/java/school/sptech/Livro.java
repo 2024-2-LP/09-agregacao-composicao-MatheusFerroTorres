@@ -67,6 +67,14 @@ public class Livro {
         this.dataPublicacao = dataPublicacao;
     }
 
+    public List<Avaliacao> getAvaliacoes() {
+        return avaliacoes;
+    }
+
+    public void setAvaliacoes(List<Avaliacao> avaliacoes) {
+        this.avaliacoes = avaliacoes;
+    }
+
     @Override
     public String toString() {
         return "Livro{" +

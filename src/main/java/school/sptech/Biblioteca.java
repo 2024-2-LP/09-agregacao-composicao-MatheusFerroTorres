@@ -42,6 +42,11 @@ public class Biblioteca {
         return null;
     }
 
+    public Integer contarLivros(){
+        livros.size();
+        return livros.size();
+    }
+
 
     public String getNome() {
         return nome;
